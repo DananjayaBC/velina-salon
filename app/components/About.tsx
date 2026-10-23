@@ -9,10 +9,10 @@ const stats = [
 
 export default function About() {
   return (
-    <section className="flex min-h-screen w-full flex-col justify-center px-[22px] py-[64px] lg:h-screen lg:overflow-hidden lg:px-[1.72vw] lg:py-[5vh]">
+    <section className="flex min-h-screen w-full flex-col justify-center px-[22px] py-[64px] lg:px-[1.72vw] lg:py-[5vh]">
       <div className="grid w-full grid-cols-1 gap-y-[20px] lg:grid-cols-[32.3%_1fr] lg:gap-y-0">
         <p className="tiny pt-[10px]">Who we are</p>
-        <div className="flex w-full flex-col lg:h-[90vh] lg:justify-between">
+        <div className="flex w-full flex-col lg:min-h-[90vh] lg:justify-between">
           <div>
             <Headline
               text="A {L}UXURY {B}EAUTY|EXPERIENCE|{D}ESIGNED {A}ROUND|YOU"
