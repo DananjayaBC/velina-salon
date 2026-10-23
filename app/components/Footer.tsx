@@ -6,7 +6,7 @@ const social = ["Social Links", "Instagram", "Facebook", "Pinterest", "Tiktok"];
 
 export default function Footer() {
   return (
-    <footer className="px-[22px] lg:px-[1.72vw] pt-[64px] pb-[40px] lg:pt-[7.5vw] lg:pb-[4.4vw]">
+    <footer className="flex min-h-screen flex-col justify-center px-[22px] py-[64px] lg:px-[1.72vw] lg:py-[4vw]">
       <div className="grid grid-cols-1 gap-y-[48px] lg:grid-cols-[32.3%_16.1%_16.3%_1fr] lg:gap-y-0">
         <div className="text-6xl font-light leading-[0.86] tracking-[-0.02em] sm:text-8xl lg:col-span-3 lg:-ml-[6px] lg:-mt-[14px] lg:text-[clamp(170px,15.3vw,370px)]">
           VELINA

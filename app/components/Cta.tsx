@@ -8,14 +8,14 @@ const ArrowUpRight = () => (
 
 export default function Cta() {
   return (
-    <section className="relative h-[70vh] min-h-[480px] w-full overflow-hidden text-white lg:h-[59vw] lg:min-h-0">
+    <section className="relative h-screen min-h-[480px] w-full overflow-hidden text-white">
       <img
         src="https://images.unsplash.com/photo-1600948836101-f9ffda59d250?w=1600&q=80"
         alt="Two black salon chairs under arched mirrors"
         className="absolute inset-0 h-full w-full object-cover"
       />
       <div className="absolute inset-0 bg-gradient-to-b from-black/60 via-black/35 to-black/50" />
-      <div className="absolute inset-x-0 top-1/2 -translate-y-1/2 px-[22px] lg:px-[1.72vw] text-center lg:top-[18vw] lg:translate-y-0 lg:px-0">
+      <div className="absolute inset-x-0 top-1/2 -translate-y-1/2 px-[22px] lg:px-[1.72vw] text-center lg:top-[32%] lg:translate-y-0 lg:px-0">
         <Headline
           as="h2"
           text="{R}ESERVE YO{U}R|MOMEN{T} OF BEAUTY|& R{E}LAXATION"

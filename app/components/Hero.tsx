@@ -3,7 +3,7 @@ import Nav from "./Nav";
 
 export default function Hero() {
   return (
-    <section className="relative h-[70vh] min-h-[560px] w-full overflow-hidden text-white lg:h-[59vw] lg:min-h-0">
+    <section className="relative h-screen min-h-[560px] w-full overflow-hidden text-white">
       <img
         src="https://images.unsplash.com/photo-1521590832167-7bcbfaa6381f?w=1600&q=80"
         alt="Woman seated in a salon chair"
@@ -16,7 +16,7 @@ export default function Hero() {
       <Nav />
 
       {/* copy */}
-      <div className="absolute inset-x-0 top-[150px] px-[22px] lg:px-[1.72vw] sm:top-[200px] lg:top-[23vw]">
+      <div className="absolute inset-x-0 top-[150px] px-[22px] lg:px-[1.72vw] sm:top-[200px] lg:top-[38%]">
         <div className="grid grid-cols-1 gap-y-[18px] lg:grid-cols-[32.3%_1fr] lg:gap-y-0">
           <p className="tiny mt-[4px]">&ldquo;Now accepting new clients&rdquo;</p>
           <div>

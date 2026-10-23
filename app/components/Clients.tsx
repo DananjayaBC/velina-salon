@@ -30,7 +30,7 @@ const Arrow = ({ dir }: { dir: "l" | "r" }) => (
 
 export default function Clients() {
   return (
-    <section className="px-[22px] lg:px-[1.72vw] pb-[80px] lg:pb-[7.8vw]">
+    <section className="flex min-h-screen flex-col justify-center px-[22px] py-[64px] lg:px-[1.72vw] lg:py-[4vw]">
       <div className="grid grid-cols-1 gap-y-[20px] lg:grid-cols-[32.3%_1fr] lg:gap-y-0">
         <p className="tiny pt-[10px]">Client experiences</p>
         <div>

@@ -10,7 +10,7 @@ const rows = [
 
 export default function Why() {
   return (
-    <section className="px-[22px] lg:px-[1.72vw] pb-[110px] lg:pb-[15.6vw]">
+    <section className="flex min-h-screen flex-col justify-center px-[22px] py-[64px] lg:px-[1.72vw] lg:py-[4vw]">
       <div className="grid grid-cols-1 gap-y-[48px] md:grid-cols-2 md:gap-x-[24px] lg:grid-cols-[32.3%_16.1%_16.3%_1fr] lg:gap-0">
         <div className="lg:col-span-2 lg:pr-[10px]">
           <Headline
