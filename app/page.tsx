@@ -11,7 +11,7 @@ import Why from "./components/Why";
 
 export default function Home() {
   return (
-    <main className="relative mx-auto w-full max-w-[1165px] overflow-x-hidden bg-background">
+    <main className="relative mx-auto w-full overflow-x-hidden bg-background">
       <GridLines />
       <Hero />
       <About />

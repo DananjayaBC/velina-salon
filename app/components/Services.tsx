@@ -38,10 +38,10 @@ function Card({ s }: { s: (typeof services)[number] }) {
       <img
         src={`https://images.unsplash.com/${s.img}?w=900&q=80`}
         alt={s.alt}
-        className="aspect-[378/416] w-full object-cover lg:aspect-auto lg:h-[416px] lg:w-[378px]"
+        className="aspect-[378/416] w-full object-cover "
       />
-      <div className="mt-[16px] grid grid-cols-2 lg:grid-cols-[188px_1fr]">
-        <div className="text-[13px] leading-[16px] uppercase">{s.name}</div>
+      <div className="mt-[16px] grid grid-cols-2 lg:grid-cols-[50%_1fr]">
+        <div className="text-[13px] leading-[16px] uppercase fluid-13">{s.name}</div>
         <div className="tiny">
           {s.meta.map((m) => (
             <div key={m}>{m}</div>
@@ -57,16 +57,16 @@ function Card({ s }: { s: (typeof services)[number] }) {
 
 export default function Services() {
   return (
-    <section className="px-[22px] pb-[100px] lg:pb-[170px]">
-      <div className="grid grid-cols-1 gap-y-[20px] lg:grid-cols-[376px_1fr] lg:gap-y-0">
+    <section className="px-[22px] lg:px-[1.72vw] pb-[100px] lg:pb-[13.3vw]">
+      <div className="grid grid-cols-1 gap-y-[20px] lg:grid-cols-[32.3%_1fr] lg:gap-y-0">
         <p className="tiny pt-[10px]">Signature services</p>
         <Headline
           text="{C}URATED {B}EAUTY|SERVIC{E}S"
-          className="text-3xl sm:text-5xl lg:text-[68px] lg:leading-[74px] lg:whitespace-nowrap lg:-ml-[4px]"
+          className="text-3xl sm:text-5xl lg:text-[clamp(60px,5.3vw,128px)] lg:leading-[1.09] lg:whitespace-nowrap lg:-ml-[4px]"
         />
       </div>
 
-      <div className="mt-[44px] grid grid-cols-1 gap-y-[56px] sm:grid-cols-2 sm:gap-x-[24px] lg:mt-[66px] lg:grid-cols-[376px_188px_190px_1fr] lg:gap-x-0 lg:gap-y-[90px]">
+      <div className="mt-[44px] grid grid-cols-1 gap-y-[56px] sm:grid-cols-2 sm:gap-x-[24px] lg:mt-[5.2vw] lg:grid-cols-[32.3%_16.1%_16.3%_1fr] lg:gap-x-0 lg:gap-y-[7vw]">
         <Card s={services[0]} />
         <div className="hidden lg:col-span-2 lg:block" />
         <Card s={services[1]} />

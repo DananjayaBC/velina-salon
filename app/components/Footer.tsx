@@ -6,15 +6,15 @@ const social = ["Social Links", "Instagram", "Facebook", "Pinterest", "Tiktok"];
 
 export default function Footer() {
   return (
-    <footer className="px-[22px] pt-[64px] pb-[40px] lg:pt-[96px] lg:pb-[56px]">
-      <div className="grid grid-cols-1 gap-y-[48px] lg:grid-cols-[376px_188px_190px_1fr] lg:gap-y-0">
-        <div className="text-6xl font-light leading-[0.86] tracking-[-0.02em] sm:text-8xl lg:col-span-3 lg:-ml-[6px] lg:-mt-[14px] lg:text-[196px]">
+    <footer className="px-[22px] lg:px-[1.72vw] pt-[64px] pb-[40px] lg:pt-[7.5vw] lg:pb-[4.4vw]">
+      <div className="grid grid-cols-1 gap-y-[48px] lg:grid-cols-[32.3%_16.1%_16.3%_1fr] lg:gap-y-0">
+        <div className="text-6xl font-light leading-[0.86] tracking-[-0.02em] sm:text-8xl lg:col-span-3 lg:-ml-[6px] lg:-mt-[14px] lg:text-[clamp(170px,15.3vw,370px)]">
           VELINA
         </div>
-        <div className="grid grid-cols-2 lg:grid-cols-[188px_1fr]">
+        <div className="grid grid-cols-2 lg:grid-cols-[50%_1fr]">
           <div>
             <VMark className="h-[36px] w-[34px]" />
-            <ul className="tiny mt-[32px] space-y-[5px] lg:mt-[104px]">
+            <ul className="tiny mt-[32px] space-y-[5px] lg:mt-[8.1vw]">
               {pages.map((p) => (
                 <li key={p}>
                   <a href="#">{p}</a>
@@ -22,7 +22,7 @@ export default function Footer() {
               ))}
             </ul>
           </div>
-          <ul className="tiny mt-[68px] space-y-[5px] lg:mt-[140px]">
+          <ul className="tiny mt-[68px] space-y-[5px] lg:mt-[11vw]">
             {services.map((p) => (
               <li key={p}>
                 <a href="#">{p}</a>
@@ -32,7 +32,7 @@ export default function Footer() {
         </div>
       </div>
 
-      <div className="mt-[56px] grid grid-cols-1 gap-y-[28px] sm:grid-cols-2 lg:mt-[88px] lg:grid-cols-[376px_188px_190px_188px_1fr] lg:gap-y-0">
+      <div className="mt-[56px] grid grid-cols-1 gap-y-[28px] sm:grid-cols-2 lg:mt-[6.9vw] lg:grid-cols-[32.3%_16.1%_16.3%_16.1%_1fr] lg:gap-y-0">
         <div className="flex items-start gap-[10px]">
           <span className="tiny">Opening hours</span>
           <span className="h-[24px] w-px bg-ink/50" />
@@ -62,7 +62,7 @@ export default function Footer() {
         </div>
       </div>
 
-      <div className="mt-[72px] flex flex-wrap gap-x-[32px] gap-y-[8px] lg:mt-[170px] lg:grid lg:grid-cols-[238px_138px_1fr] lg:gap-0">
+      <div className="mt-[72px] flex flex-wrap gap-x-[32px] gap-y-[8px] lg:mt-[13.3vw] lg:grid lg:grid-cols-[20.4%_11.8%_1fr] lg:gap-0">
         <span className="tiny">&copy; 2026 Velina. All rights reserved.</span>
         <a href="#" className="tiny">
           Privacy Policy

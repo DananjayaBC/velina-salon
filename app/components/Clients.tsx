@@ -30,24 +30,24 @@ const Arrow = ({ dir }: { dir: "l" | "r" }) => (
 
 export default function Clients() {
   return (
-    <section className="px-[22px] pb-[80px] lg:pb-[100px]">
-      <div className="grid grid-cols-1 gap-y-[20px] lg:grid-cols-[376px_1fr] lg:gap-y-0">
+    <section className="px-[22px] lg:px-[1.72vw] pb-[80px] lg:pb-[7.8vw]">
+      <div className="grid grid-cols-1 gap-y-[20px] lg:grid-cols-[32.3%_1fr] lg:gap-y-0">
         <p className="tiny pt-[10px]">Client experiences</p>
         <div>
           <Headline
             text="{W}HO VALUE {L}UXURY|{&} CARE"
-            className="text-3xl sm:text-5xl lg:text-[68px] lg:leading-[74px] lg:whitespace-nowrap lg:-ml-[4px]"
+            className="text-3xl sm:text-5xl lg:text-[clamp(60px,5.3vw,128px)] lg:leading-[1.09] lg:whitespace-nowrap lg:-ml-[4px]"
           />
-          <p className="tiny mt-[24px] max-w-[760px] text-muted lg:mt-[30px]">
+          <p className="tiny mt-[24px] max-w-[760px] lg:max-w-[60%] text-muted lg:mt-[30px]">
             From personalized beauty treatments to relaxing salon experiences, our clients trust Velina for results
             that feel elegant, effortless, and confidence-boosting.
           </p>
         </div>
       </div>
 
-      <div className="mt-[44px] grid grid-cols-1 gap-y-[40px] lg:mt-[56px] lg:grid-cols-[376px_1fr] lg:gap-y-0">
+      <div className="mt-[44px] grid grid-cols-1 gap-y-[40px] lg:mt-[4.4vw] lg:grid-cols-[32.3%_1fr] lg:gap-y-0">
         <div className="relative">
-          <div className="grid grid-cols-2 gap-x-[16px] gap-y-[32px] pt-[10px] lg:grid-cols-[188px_1fr] lg:gap-x-0 lg:gap-y-[96px]">
+          <div className="grid grid-cols-2 gap-x-[16px] gap-y-[32px] pt-[10px] lg:grid-cols-[50%_1fr] lg:gap-x-0 lg:gap-y-[7.5vw]">
             {stats.map(([n, l]) => (
               <div key={l} className="tiny">
                 {n}
@@ -66,7 +66,7 @@ export default function Clients() {
           </div>
         </div>
 
-        <div className="grid grid-cols-1 border border-ink/60 md:grid-cols-2 lg:h-[694px]">
+        <div className="grid grid-cols-1 border border-ink/60 md:grid-cols-2 lg:aspect-[789/694]">
           {quotes.map((q, i) => (
             <div
               key={q.name}
@@ -78,7 +78,7 @@ export default function Clients() {
                 <span className="tracking-[0.15em]">&#9733;&#9733;&#9733;&#9733;&#9733;</span>
                 <span>4.9/ Average rating</span>
               </div>
-              <p className="mt-[22px] text-[13px] leading-[18px] uppercase">{q.text}</p>
+              <p className="mt-[22px] text-[13px] leading-[18px] uppercase fluid-13">{q.text}</p>
               <div className="absolute inset-x-[20px] bottom-[60px] border-t border-ink/40 lg:inset-x-[28px]" />
               <div className="absolute bottom-[26px] left-[20px] flex items-center gap-[10px] lg:left-[28px]">
                 <img

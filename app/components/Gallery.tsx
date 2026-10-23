@@ -11,20 +11,20 @@ const imgs = [
 
 export default function Gallery() {
   return (
-    <section className="px-[22px] pb-[110px] lg:pb-[180px]">
-      <div className="grid grid-cols-1 gap-y-[20px] lg:grid-cols-[376px_1fr] lg:gap-y-0">
+    <section className="px-[22px] lg:px-[1.72vw] pb-[110px] lg:pb-[14vw]">
+      <div className="grid grid-cols-1 gap-y-[20px] lg:grid-cols-[32.3%_1fr] lg:gap-y-0">
         <p className="tiny pt-[10px]">Inside Velina</p>
         <Headline
           text="M{O}MENTS OF|{B}EAUTY, {E}LEGANCE"
-          className="text-3xl sm:text-5xl lg:text-[68px] lg:leading-[74px] lg:whitespace-nowrap lg:-ml-[4px]"
+          className="text-3xl sm:text-5xl lg:text-[clamp(60px,5.3vw,128px)] lg:leading-[1.09] lg:whitespace-nowrap lg:-ml-[4px]"
         />
       </div>
 
-      <div className="mt-[48px] grid grid-cols-2 items-end gap-[12px] sm:grid-cols-3 lg:mt-[86px] lg:flex lg:gap-[9px]">
+      <div className="mt-[48px] grid grid-cols-2 items-end gap-[12px] sm:grid-cols-3 lg:mt-[6.7vw] lg:grid-cols-6 lg:gap-[0.8vw]">
         {imgs.map((id, i) => {
           const tall = i === 2;
           return (
-            <div key={id} className="w-full lg:w-[180px]">
+            <div key={id} className="w-full">
               <div className="tiny mb-[8px]">
                 0{i + 1}
                 {tall && (
@@ -37,8 +37,8 @@ export default function Gallery() {
               <img
                 src={`https://images.unsplash.com/${id}?w=600&q=80`}
                 alt={`Gallery ${i + 1}`}
-                className={`aspect-[180/215] w-full object-cover lg:aspect-auto lg:w-[180px] ${
-                  tall ? "lg:h-[248px]" : "lg:h-[215px]"
+                className={`aspect-[180/215] w-full object-cover lg:aspect-auto ${
+                  tall ? "lg:aspect-[180/248]" : "lg:aspect-[180/215]"
                 }`}
               />
             </div>

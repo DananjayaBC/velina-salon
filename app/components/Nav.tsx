@@ -16,8 +16,8 @@ export default function Nav() {
   const [open, setOpen] = useState(false);
 
   return (
-    <header className="absolute inset-x-0 top-[20px] z-30 px-[22px] lg:top-[28px]">
-      <div className="flex items-start justify-between lg:grid lg:grid-cols-[376px_188px_190px_1fr]">
+    <header className="absolute inset-x-0 top-[20px] z-30 px-[22px] lg:px-[1.72vw] lg:top-[28px]">
+      <div className="flex items-start justify-between lg:grid lg:grid-cols-[32.3%_16.1%_16.3%_1fr]">
         <Logo />
 
         {/* desktop / tablet link columns */}
@@ -61,7 +61,7 @@ export default function Nav() {
 
       {/* mobile dropdown */}
       {open && (
-        <div className="-mx-[22px] mt-[16px] grid grid-cols-2 gap-y-[20px] bg-[#1c1a17]/90 px-[22px] py-[24px] backdrop-blur-sm md:hidden">
+        <div className="-mx-[22px] mt-[16px] grid grid-cols-2 gap-y-[20px] bg-[#1c1a17]/90 px-[22px] lg:px-[1.72vw] py-[24px] backdrop-blur-sm md:hidden">
           <nav className="tiny flex flex-col gap-[8px]">
             {colA.map((l) => (
               <a key={l} href="#">
