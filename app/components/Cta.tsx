@@ -8,7 +8,7 @@ const ArrowUpRight = () => (
 
 export default function Cta() {
   return (
-    <section className="relative h-screen min-h-[480px] w-full overflow-hidden text-white">
+    <section className="relative h-[70vh] min-h-[480px] md:h-screen w-full overflow-hidden text-white">
       <img
         src="https://images.unsplash.com/photo-1600948836101-f9ffda59d250?w=1600&q=80"
         alt="Two black salon chairs under arched mirrors"

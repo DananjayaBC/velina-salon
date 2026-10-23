@@ -8,7 +8,7 @@ const Arrow = ({ dir }: { dir: "l" | "r" }) => (
 
 export default function Transformations() {
   return (
-    <section className="flex min-h-screen w-full flex-col justify-center px-[22px] py-[64px] md:py-[5vh] lg:px-[1.72vw]">
+    <section className="flex w-full flex-col justify-center px-[22px] py-[40px] md:min-h-screen md:py-[5vh] lg:px-[1.72vw]">
       <div className="relative h-[520px] w-full border border-ink/60 sm:h-[600px] md:h-[90vh]">
         <p className="tiny absolute left-0 right-0 top-[36px] text-center md:top-[8%]">Real transformations</p>
 

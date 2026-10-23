@@ -57,7 +57,7 @@ function Card({ s }: { s: (typeof services)[number] }) {
 
 export default function Services() {
   return (
-    <section className="flex min-h-screen w-full flex-col justify-center px-[22px] py-[64px] md:py-[4vh] lg:px-[1.72vw]">
+    <section className="flex w-full flex-col justify-center px-[22px] py-[40px] md:min-h-screen md:py-[4vh] lg:px-[1.72vw]">
       <div className="flex w-full flex-col md:min-h-[92vh] md:justify-between">
         <div className="grid grid-cols-1 gap-y-[20px] lg:grid-cols-[32.3%_1fr] lg:gap-y-0">
           <p className="tiny pt-[10px]">Signature services</p>

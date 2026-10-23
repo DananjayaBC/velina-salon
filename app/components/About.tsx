@@ -9,7 +9,7 @@ const stats = [
 
 export default function About() {
   return (
-    <section className="flex min-h-screen w-full flex-col justify-center px-[22px] py-[64px] md:py-[5vh] lg:px-[1.72vw]">
+    <section className="flex w-full flex-col justify-center px-[22px] py-[40px] md:min-h-screen md:py-[5vh] lg:px-[1.72vw]">
       <div className="grid w-full grid-cols-1 gap-y-[20px] md:grid-cols-[32.3%_1fr] md:gap-y-0">
         <p className="tiny pt-[10px]">Who we are</p>
         <div className="flex w-full flex-col md:min-h-[90vh] md:justify-between">
