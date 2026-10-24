@@ -19,7 +19,7 @@ export default function About() {
               className="sm:text-5xl md:text-[min(5.8vw,8vh)] md:leading-[1.06] md:whitespace-nowrap lg:-ml-[4px]"
             />
             <p className="tiny mt-[32px] max-w-[760px] text-muted md:mt-[3vh] md:max-w-none md:pr-[4vw]">
-              At Velina, we believe beauty is deeply personal. Every appointment is thoughtfully tailored to enhance
+              At Salon Apsa, we believe beauty is deeply personal. Every appointment is thoughtfully tailored to enhance
               confidence, elevate self-care, and create a relaxing experience that feels effortlessly luxurious from
               beginning to end.
             </p>

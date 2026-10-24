@@ -9,7 +9,7 @@ const stats = [
 
 const quotes = [
   {
-    text: "“From the moment I walked into Velina, everything felt calming, elegant, and incredibly professional. The attention to detail, personalized care, and final results exceeded every expectation.”",
+    text: "“From the moment I walked into Salon Apsa, everything felt calming, elegant, and incredibly professional. The attention to detail, personalized care, and final results exceeded every expectation.”",
     name: "Sophia Bennett",
     role: "Bridal Makeup Client",
     img: "photo-1494790108377-be9c29b29330",
@@ -40,7 +40,7 @@ export default function Clients() {
               className="sm:text-5xl md:text-[min(5.8vw,8vh)] md:leading-[1.06] md:whitespace-nowrap lg:-ml-[4px]"
             />
             <p className="tiny mt-[24px] max-w-[760px] text-muted md:mt-[2.5vh] md:max-w-none md:pr-[4vw]">
-              From personalized beauty treatments to relaxing salon experiences, our clients trust Velina for results
+              From personalized beauty treatments to relaxing salon experiences, our clients trust Salon Apsa for results
               that feel elegant, effortless, and confidence-boosting.
             </p>
           </div>

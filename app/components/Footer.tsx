@@ -1,4 +1,4 @@
-import { VMark } from "./Logo";
+import { LogoMark } from "./Logo";
 
 const pages = ["Home", "About", "Services", "Gallery", "Testimonials", "Contact"];
 const services = ["Services", "Hair Artistry", "Bridal Beauty", "Skin Rituals", "Nail Care", "Luxury Treatments"];
@@ -9,11 +9,11 @@ export default function Footer() {
     <footer className="flex flex-col justify-center px-[22px] py-[40px] md:min-h-screen md:py-[64px] lg:px-[1.72vw] lg:py-[4vw]">
       <div className="grid grid-cols-1 gap-y-[48px] lg:grid-cols-[32.3%_16.1%_16.3%_1fr] lg:gap-y-0">
         <div className="text-[clamp(60px,19vw,96px)] font-light leading-[0.86] tracking-[-0.02em] sm:text-8xl lg:col-span-3 lg:-ml-[6px] lg:-mt-[14px] lg:text-[clamp(170px,15.3vw,370px)]">
-          VELINA
+          APSA
         </div>
         <div className="grid grid-cols-2 lg:grid-cols-[50%_1fr]">
           <div>
-            <VMark className="h-[36px] w-[34px]" />
+            <LogoMark className="h-[72px] w-[72px]" />
             <ul className="tiny mt-[32px] space-y-[5px] lg:mt-[8.1vw]">
               {pages.map((p) => (
                 <li key={p}>
@@ -56,14 +56,14 @@ export default function Footer() {
         </ul>
         <div className="tiny space-y-[5px]">
           <div>(+123) 3245-98612</div>
-          <div>hello@velina.com</div>
+          <div>hello@salonapsa.com</div>
           <div className="pt-[14px]">Address</div>
           <div className="lg:whitespace-nowrap">245 Madison Avenue, New York, NY</div>
         </div>
       </div>
 
       <div className="mt-[72px] flex flex-wrap gap-x-[32px] gap-y-[8px] lg:mt-[13.3vw] lg:grid lg:grid-cols-[20.4%_11.8%_1fr] lg:gap-0">
-        <span className="tiny">&copy; 2026 Velina. All rights reserved.</span>
+        <span className="tiny">&copy; 2026 Salon Apsa. All rights reserved.</span>
         <a href="#" className="tiny">
           Privacy Policy
         </a>

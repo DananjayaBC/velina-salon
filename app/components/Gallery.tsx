@@ -13,7 +13,7 @@ export default function Gallery() {
   return (
     <section className="flex flex-col justify-center px-[22px] py-[40px] md:min-h-screen md:py-[64px] lg:px-[1.72vw] lg:py-[4vw]">
       <div className="grid grid-cols-1 gap-y-[20px] lg:grid-cols-[32.3%_1fr] lg:gap-y-0">
-        <p className="tiny pt-[10px]">Inside Velina</p>
+        <p className="tiny pt-[10px]">Inside Salon Apsa</p>
         <Headline
           text="M{O}MENTS OF|{B}EAUTY, {E}LEGANCE"
           className="sm:text-5xl lg:text-[clamp(60px,5.3vw,128px)] lg:leading-[1.09] lg:whitespace-nowrap lg:-ml-[4px]"

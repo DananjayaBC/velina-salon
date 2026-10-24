@@ -26,7 +26,7 @@ export default function Hero() {
               className="sm:text-5xl lg:text-[clamp(60px,5.3vw,128px)] lg:leading-[1.09] lg:whitespace-nowrap lg:-ml-[6px]"
             />
             <p className="tiny mt-[20px] max-w-[700px] lg:mt-[2.3vw]">
-              At Velina, beauty is more than a service &mdash; it&rsquo;s a personalized luxury experience crafted to
+              At Salon Apsa, beauty is more than a service &mdash; it&rsquo;s a personalized luxury experience crafted to
               elevate confidence, elegance, and self-care.
             </p>
           </div>

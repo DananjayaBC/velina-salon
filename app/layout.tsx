@@ -15,8 +15,8 @@ const pinyon = Pinyon_Script({
 });
 
 export const metadata: Metadata = {
-  title: "Velina",
-  description: "Velina - a luxury beauty experience designed around you.",
+  title: "Salon Apsa",
+  description: "Salon Apsa - a luxury beauty experience designed around you.",
 };
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {

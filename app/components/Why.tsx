@@ -18,9 +18,9 @@ export default function Why() {
               text="{E}LEVATED|BEAUT{Y}|E{X}PERIENCE"
               className="sm:text-5xl md:text-[min(5.8vw,8vh)] md:leading-[1.06] md:whitespace-nowrap lg:-ml-[4px]"
             />
-            <p className="tiny mt-[28px] md:mt-[3vh]">Why Velina</p>
+            <p className="tiny mt-[28px] md:mt-[3vh]">Why Salon Apsa</p>
             <p className="tiny mt-[20px] text-muted md:mt-[2vh]">
-              Every detail at Velina is intentionally designed to create a beauty experience that feels refined,
+              Every detail at Salon Apsa is intentionally designed to create a beauty experience that feels refined,
               relaxing, and deeply personal. From our expert artists to our thoughtfully curated interior, luxury is
               felt in every moment.
             </p>
