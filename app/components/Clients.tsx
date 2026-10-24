@@ -23,7 +23,7 @@ const quotes = [
 ];
 
 const Arrow = ({ dir }: { dir: "l" | "r" }) => (
-  <svg viewBox="0 0 16 10" className="h-[10px] w-[16px]" fill="none" stroke="currentColor" strokeWidth="1">
+  <svg viewBox="0 0 16 10" className="h-[12px] w-[19px] md:h-[10px] md:w-[16px]" fill="none" stroke="currentColor" strokeWidth="1">
     {dir === "l" ? <path d="M15 5H1M5 1L1 5l4 4" /> : <path d="M1 5h14M11 1l4 4-4 4" />}
   </svg>
 );
@@ -37,7 +37,7 @@ export default function Clients() {
           <div>
             <Headline
               text="{W}HO VALUE {L}UXURY|{&} CARE"
-              className="text-3xl sm:text-5xl md:text-[min(5.8vw,8vh)] md:leading-[1.06] md:whitespace-nowrap lg:-ml-[4px]"
+              className="sm:text-5xl md:text-[min(5.8vw,8vh)] md:leading-[1.06] md:whitespace-nowrap lg:-ml-[4px]"
             />
             <p className="tiny mt-[24px] max-w-[760px] text-muted md:mt-[2.5vh] md:max-w-none md:pr-[4vw]">
               From personalized beauty treatments to relaxing salon experiences, our clients trust Velina for results
@@ -79,7 +79,7 @@ export default function Clients() {
                   <span className="tracking-[0.15em]">&#9733;&#9733;&#9733;&#9733;&#9733;</span>
                   <span>4.9/ Average rating</span>
                 </div>
-                <p className="mt-[22px] text-[13px] leading-[18px] uppercase fluid-13 md:mt-[2.5vh]">{q.text}</p>
+                <p className="mt-[22px] uppercase fluid-13 md:mt-[2.5vh]">{q.text}</p>
                 <div className="absolute inset-x-[20px] bottom-[60px] border-t border-ink/40 lg:inset-x-[1.8vw]" />
                 <div className="absolute bottom-[26px] left-[20px] flex items-center gap-[10px] lg:left-[1.8vw]">
                   <img

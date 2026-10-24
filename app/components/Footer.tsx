@@ -8,7 +8,7 @@ export default function Footer() {
   return (
     <footer className="flex flex-col justify-center px-[22px] py-[40px] md:min-h-screen md:py-[64px] lg:px-[1.72vw] lg:py-[4vw]">
       <div className="grid grid-cols-1 gap-y-[48px] lg:grid-cols-[32.3%_16.1%_16.3%_1fr] lg:gap-y-0">
-        <div className="text-6xl font-light leading-[0.86] tracking-[-0.02em] sm:text-8xl lg:col-span-3 lg:-ml-[6px] lg:-mt-[14px] lg:text-[clamp(170px,15.3vw,370px)]">
+        <div className="text-[clamp(60px,19vw,96px)] font-light leading-[0.86] tracking-[-0.02em] sm:text-8xl lg:col-span-3 lg:-ml-[6px] lg:-mt-[14px] lg:text-[clamp(170px,15.3vw,370px)]">
           VELINA
         </div>
         <div className="grid grid-cols-2 lg:grid-cols-[50%_1fr]">

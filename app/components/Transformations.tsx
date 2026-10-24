@@ -1,7 +1,7 @@
 import Headline from "./Headline";
 
 const Arrow = ({ dir }: { dir: "l" | "r" }) => (
-  <svg viewBox="0 0 16 10" className="h-[10px] w-[16px]" fill="none" stroke="currentColor" strokeWidth="1">
+  <svg viewBox="0 0 16 10" className="h-[12px] w-[19px] md:h-[10px] md:w-[16px]" fill="none" stroke="currentColor" strokeWidth="1">
     {dir === "l" ? <path d="M15 5H1M5 1L1 5l4 4" /> : <path d="M1 5h14M11 1l4 4-4 4" />}
   </svg>
 );
@@ -33,7 +33,7 @@ export default function Transformations() {
 
         <Headline
           text="{Y}OU CAN SEE {&} FEEL"
-          className="absolute left-0 right-0 top-[236px] text-center text-[24px] whitespace-nowrap sm:top-[274px] sm:text-5xl md:top-[44%] md:text-[min(5.8vw,8vh)] md:leading-[1.15] [&_.swash]:text-accent"
+          className="absolute left-0 right-0 top-[236px] text-center text-[clamp(24px,7vw,48px)] whitespace-nowrap sm:top-[274px] sm:text-5xl md:top-[44%] md:text-[min(5.8vw,8vh)] md:leading-[1.15] [&_.swash]:text-accent"
         />
 
         <div className="absolute inset-x-[20px] bottom-[28px] grid grid-cols-2 gap-x-[16px] md:inset-x-auto md:left-[33.5%] md:bottom-[7.5%] md:grid-cols-[23.8vw_1fr] md:gap-x-0">

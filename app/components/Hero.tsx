@@ -23,7 +23,7 @@ export default function Hero() {
             <Headline
               as="h1"
               text="{R}EVEAL Y{O}UR MOST|RADIANT {S}ELF"
-              className="text-3xl sm:text-5xl lg:text-[clamp(60px,5.3vw,128px)] lg:leading-[1.09] lg:whitespace-nowrap lg:-ml-[6px]"
+              className="sm:text-5xl lg:text-[clamp(60px,5.3vw,128px)] lg:leading-[1.09] lg:whitespace-nowrap lg:-ml-[6px]"
             />
             <p className="tiny mt-[20px] max-w-[700px] lg:mt-[2.3vw]">
               At Velina, beauty is more than a service &mdash; it&rsquo;s a personalized luxury experience crafted to
@@ -37,7 +37,7 @@ export default function Hero() {
       <div className="absolute inset-x-0 bottom-0 bg-black/20 backdrop-blur-[1px] lg:h-[3.75vw]">
         <div className="grid grid-cols-1 gap-y-[12px] px-[22px] lg:px-[1.72vw] py-[14px] sm:grid-cols-3 sm:gap-y-0 lg:h-full lg:grid-cols-[32.3%_16.1%_16.3%_1fr] lg:items-center lg:py-0">
           <div>
-            <div className="text-[10px] tracking-[0.15em] leading-[12px]">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
+            <div className="text-[13px] tracking-[0.15em] leading-[16px] md:text-[10px] md:leading-[12px]">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
             <div className="tiny">Trusted by 5,000+ beauty lovers</div>
           </div>
           <div className="flex items-start gap-[10px] lg:col-span-2 lg:pl-[100px]">

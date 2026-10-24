@@ -16,7 +16,7 @@ export default function Why() {
           <div>
             <Headline
               text="{E}LEVATED|BEAUT{Y}|E{X}PERIENCE"
-              className="text-3xl sm:text-5xl md:text-[min(5.8vw,8vh)] md:leading-[1.06] md:whitespace-nowrap lg:-ml-[4px]"
+              className="sm:text-5xl md:text-[min(5.8vw,8vh)] md:leading-[1.06] md:whitespace-nowrap lg:-ml-[4px]"
             />
             <p className="tiny mt-[28px] md:mt-[3vh]">Why Velina</p>
             <p className="tiny mt-[20px] text-muted md:mt-[2vh]">
@@ -32,7 +32,7 @@ export default function Why() {
                 key={r}
                 className="flex h-[53px] items-center justify-between border-b border-ink/50 pr-[12px] md:h-[7vh]"
               >
-                <span className="text-[13px] uppercase fluid-13">{r}</span>
+                <span className="uppercase fluid-13">{r}</span>
                 <span className="tiny">0{i + 1}</span>
               </li>
             ))}

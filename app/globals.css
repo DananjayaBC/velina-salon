@@ -6,6 +6,31 @@
   --muted: #3a3734;
   --line: rgba(28, 26, 23, 0.14);
   --accent: #5a1f10;
+
+  /* type scale: mobile-first, tightened at md, fluid at lg (base width 1280px) */
+  --text-tiny: 13px;
+  --leading-tiny: 1.4;
+  --text-body: 15px;
+  --leading-body: 1.4;
+  --text-display: clamp(30px, 8.6vw, 48px);
+}
+
+@media (min-width: 768px) {
+  :root {
+    --text-tiny: 11px;
+    --leading-tiny: 1.3;
+    --text-body: 13px;
+    --leading-body: 1.25;
+  }
+}
+
+@media (min-width: 1024px) {
+  :root {
+    --text-tiny: clamp(10px, 0.78vw, 17px);
+    --leading-tiny: 1.3;
+    --text-body: clamp(13px, 1.02vw, 22px);
+    --leading-body: 1.25;
+  }
 }
 
 @theme inline {
@@ -33,15 +58,15 @@ body {
 
 /* tiny uppercase label used across the layout */
 .tiny {
-  font-size: 10px;
-  line-height: 13px;
+  font-size: var(--text-tiny);
+  line-height: var(--leading-tiny);
   letter-spacing: 0.02em;
   text-transform: uppercase;
 }
 
 .tiny-link {
-  font-size: 10px;
-  line-height: 13px;
+  font-size: var(--text-tiny);
+  line-height: var(--leading-tiny);
   letter-spacing: 0.02em;
   text-transform: uppercase;
   text-decoration: underline;
@@ -49,7 +74,19 @@ body {
   text-decoration-thickness: 1px;
 }
 
-/* big display headline */
+/* 13px body copy in the desktop design; scales with --text-body */
+.fluid-13 {
+  font-size: var(--text-body);
+  line-height: var(--leading-body);
+}
+
+/* big display headline (mobile size lives in @layer base so breakpoint utilities override it) */
+@layer base {
+  .display {
+    font-size: var(--text-display);
+  }
+}
+
 .display {
   font-family: var(--font-inter), Arial, sans-serif;
   font-weight: 300;
@@ -84,15 +121,3 @@ body {
   background: rgba(120, 112, 100, 0.22);
 }
 
-/* fluid scaling on large screens (base width 1280px) */
-@media (min-width: 1024px) {
-  .tiny,
-  .tiny-link {
-    font-size: clamp(10px, 0.78vw, 17px);
-    line-height: 1.3;
-  }
-  .fluid-13 {
-    font-size: clamp(13px, 1.02vw, 22px);
-    line-height: 1.25;
-  }
-}

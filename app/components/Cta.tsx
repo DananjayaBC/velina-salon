@@ -1,7 +1,7 @@
 import Headline from "./Headline";
 
 const ArrowUpRight = () => (
-  <svg viewBox="0 0 10 10" className="h-[8px] w-[8px]" fill="none" stroke="currentColor" strokeWidth="1">
+  <svg viewBox="0 0 10 10" className="h-[10px] w-[10px] md:h-[8px] md:w-[8px]" fill="none" stroke="currentColor" strokeWidth="1">
     <path d="M2 8L8 2M3 2h5v5" />
   </svg>
 );
@@ -19,7 +19,7 @@ export default function Cta() {
         <Headline
           as="h2"
           text="{R}ESERVE YO{U}R|MOMEN{T} OF BEAUTY|& R{E}LAXATION"
-          className="text-3xl sm:text-5xl lg:text-[clamp(60px,5.3vw,128px)] lg:leading-[1.09] lg:whitespace-nowrap"
+          className="sm:text-5xl lg:text-[clamp(60px,5.3vw,128px)] lg:leading-[1.09] lg:whitespace-nowrap"
         />
         <div className="mt-[40px] flex flex-col items-center justify-center gap-[20px] sm:flex-row sm:gap-[46px] lg:mt-[5.2vw]">
           <a href="#" className="tiny-link flex items-center gap-1">

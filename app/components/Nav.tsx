@@ -4,7 +4,7 @@ import { useState } from "react";
 import Logo from "./Logo";
 
 const ArrowUpRight = () => (
-  <svg viewBox="0 0 10 10" className="h-[8px] w-[8px]" fill="none" stroke="currentColor" strokeWidth="1">
+  <svg viewBox="0 0 10 10" className="h-[10px] w-[10px] md:h-[8px] md:w-[8px]" fill="none" stroke="currentColor" strokeWidth="1">
     <path d="M2 8L8 2M3 2h5v5" />
   </svg>
 );

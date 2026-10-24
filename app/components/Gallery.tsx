@@ -16,7 +16,7 @@ export default function Gallery() {
         <p className="tiny pt-[10px]">Inside Velina</p>
         <Headline
           text="M{O}MENTS OF|{B}EAUTY, {E}LEGANCE"
-          className="text-3xl sm:text-5xl lg:text-[clamp(60px,5.3vw,128px)] lg:leading-[1.09] lg:whitespace-nowrap lg:-ml-[4px]"
+          className="sm:text-5xl lg:text-[clamp(60px,5.3vw,128px)] lg:leading-[1.09] lg:whitespace-nowrap lg:-ml-[4px]"
         />
       </div>
 

@@ -41,7 +41,7 @@ function Card({ s }: { s: (typeof services)[number] }) {
         className="aspect-[378/416] w-full object-cover md:aspect-auto md:h-[20vh] lg:h-[44vh]"
       />
       <div className="mt-[16px] grid grid-cols-2 md:mt-[1.5vh] lg:grid-cols-[50%_1fr]">
-        <div className="text-[13px] leading-[16px] uppercase fluid-13">{s.name}</div>
+        <div className="uppercase fluid-13">{s.name}</div>
         <div className="tiny">
           {s.meta.map((m) => (
             <div key={m}>{m}</div>
@@ -63,7 +63,7 @@ export default function Services() {
           <p className="tiny pt-[10px]">Signature services</p>
           <Headline
             text="{C}URATED {B}EAUTY|SERVIC{E}S"
-            className="text-3xl sm:text-5xl md:text-[min(5.8vw,7vh)] md:leading-[1.06] lg:text-[min(5.8vw,8vh)] lg:whitespace-nowrap lg:-ml-[4px]"
+            className="sm:text-5xl md:text-[min(5.8vw,7vh)] md:leading-[1.06] lg:text-[min(5.8vw,8vh)] lg:whitespace-nowrap lg:-ml-[4px]"
           />
         </div>
 
